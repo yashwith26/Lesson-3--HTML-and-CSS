@@ -5,22 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css ">
 </head>
 
 
 <body>
     <h1> Welcome to Yashwith's component library</h1>
-    <p>I am attending neog.camp</p>
+    <p>I am attending neog.camp and I want to make a library which would make all my look good and consistent</p>
     <hr>
     
     <h2>@typography</h2>
-    <small> Hello</small>  
-<br>
-    <a href="https://www.google.com/">Google</a>
+    <h1> This is the biggest heading</h1>
+    <h2>This is the secoond biggest</h2>
+    <p>Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph</p>
+
+    <small> This is relatively the smaller text</small>  
+<hr>
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <div class="container container-fluid">This is a fluid container and it will go till the end of the page</div>
+
+    <h3>center container</h3>
+    <div class="container container-center" >This is a centered container and it will go till the specified width</div>
+
+    <hr>
+
+    <h2>@Links</h2>
+
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+
+    <hr>
     <h2>@lists</h2>
-    
-      <h3>unordered lists</h3>
+    <h3>unordered Lists</h3>
       <ul>
         <li>Milk</li>
         <li>apple</li>
@@ -28,35 +46,64 @@
         <li>Banana</li>
       </ul>
 
-      <h3>reverese  ordered list</h3>
+      <h3>unordered inline Lists</h3>
+      <ul>
+        <li>Inline item one</li>
+        <li>Inline item two</li>
+        <li>Inline item three</li>
+    </ul>
+
+    <h3>reverese  ordered list</h3>
       <ol>
      <li>cricket</li> 
      <li>foot ball</li>
      <li>hockey</li>
     </ol>
 
+    <hr>
     <h2>@nav</h2>
+
     <nav>
-        <div>iambrand</div>
+        <div>iAmBrand</div>
         <ul>
-            <li><a href="/">products</a></li>
+            <li>
+                <a href="/">home</a>
+            </li>
+            <li>
+                <a href="/">products</a>
+            </li>
+
+            <li>
+                <a href="/">about</a>
+            </li>
         </ul>
     </nav>
-    
+
     <hr>
 
-    <h2>header</h2>
+    <h2>@header</h2>
+
     <header>
-        <img src="images/hero.svg" alt="">
+        <img  class="hero" src="images/hero.svg" alt="">
         <h1>heading inside hero</h1>
     </header>
 
-    <hr>
-    <section>
-<h2>@Section</h2>
-<h3>@fluid section</h3>
-<p>this will go end to end with little margin at both sides </p>
+<hr>
+<h2>@section</h2>
+<section>
+<h3>White section</h3>
+<p>this will have white background </p>
     </section>
+
+    <section>
+        <h3>coff white section</h3>
+        <p>This will have gray background</p>
+
+    </section>
+
+    <hr>
+
+    <h2>@Footer</h2>
 
     <footer>
         <div>some small heading inside footer</div>
