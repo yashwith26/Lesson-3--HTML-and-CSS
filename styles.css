@@ -13,7 +13,7 @@
      }
 
      hr{
-      margin: 2rem 0 rem;
+      margin: 2rem 0rem;
      }
 
      .margin-md{
@@ -22,7 +22,10 @@
 
      /** container **/
      .container{
-      padding: 0 rem 1 rem;
+      padding: 0rem 1rem;
+      
+
+
      
      }
 
@@ -121,7 +124,8 @@
   }
 
      .ow{
-background-color: var(--off-white)
+background-color: var(--off-white);
+
      }
 
      footer{
